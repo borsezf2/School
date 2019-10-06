@@ -53,6 +53,7 @@ bad performance will be of red,
 the average of all the marks have a different graph for itself,
 it is also based on the same color scheme
 
+This is an open source project, feel free to work on this. you dont't need to set up any extra things in this project just run this and you'll be set to go.
 
 made and developed by
 HARSH BORSE
