@@ -1,0 +1,189 @@
+{
+   "openapi": "3.0.0",
+   "info": {
+      "title": "booksapp",
+      "version": "1.0.0"
+   },
+   "servers": [
+      {
+         "url": "http://127.0.0.1:5000"
+      }
+   ],
+   "paths": {
+      "/detail": {
+         "get": {
+            "tags": [
+               "General"
+            ],
+            "summary": "detail",
+            "responses": {
+               "200": {
+                  "description": "Successful response",
+                  "content": {
+                     "application/json": {}
+                  }
+               }
+            }
+         },
+         "post": {
+            "tags": [
+               "General"
+            ],
+            "summary": "detail",
+            "requestBody": {
+               "content": {
+                  "application/json": {
+                     "schema": {
+                        "type": "object",
+                        "example": {
+                           "tag": "Fantasy"
+                        }
+                     }
+                  }
+               }
+            },
+            "responses": {
+               "200": {
+                  "description": "Successful response",
+                  "content": {
+                     "application/json": {}
+                  }
+               }
+            }
+         }
+      },
+      "/update": {
+         "get": {
+            "tags": [
+               "General"
+            ],
+            "summary": "update",
+            "responses": {
+               "200": {
+                  "description": "Successful response",
+                  "content": {
+                     "application/json": {}
+                  }
+               }
+            }
+         },
+         "post": {
+            "tags": [
+               "General"
+            ],
+            "summary": "update",
+            "requestBody": {
+               "content": {
+                  "application/json": {
+                     "schema": {
+                        "type": "object",
+                        "example": {
+                           "Name": "Harsh",
+                           "Review": "Nice Book",
+                           "Rating": 4.5,
+                           "Tag": "Fiction",
+                           "id": 89
+                        }
+                     }
+                  }
+               }
+            },
+            "responses": {
+               "200": {
+                  "description": "Successful response",
+                  "content": {
+                     "application/json": {}
+                  }
+               }
+            }
+         }
+      },
+      "/addbook": {
+         "get": {
+            "tags": [
+               "General"
+            ],
+            "summary": "addbook",
+            "responses": {
+               "200": {
+                  "description": "Successful response",
+                  "content": {
+                     "application/json": {}
+                  }
+               }
+            }
+         },
+         "post": {
+            "tags": [
+               "General"
+            ],
+            "summary": "addbook",
+            "requestBody": {
+               "content": {
+                  "application/json": {
+                     "schema": {
+                        "type": "object",
+                        "example": {
+                           "Name": "Harsh add book",
+                           "Review": "Nice Book",
+                           "Rating": 4.5,
+                           "Tag": "Fiction"
+                        }
+                     }
+                  }
+               }
+            },
+            "responses": {
+               "200": {
+                  "description": "Successful response",
+                  "content": {
+                     "application/json": {}
+                  }
+               }
+            }
+         }
+      },
+      "/deletebook": {
+         "get": {
+            "tags": [
+               "General"
+            ],
+            "summary": "deletebook",
+            "responses": {
+               "200": {
+                  "description": "Successful response",
+                  "content": {
+                     "application/json": {}
+                  }
+               }
+            }
+         },
+         "post": {
+            "tags": [
+               "General"
+            ],
+            "summary": "deletebook",
+            "requestBody": {
+               "content": {
+                  "application/json": {
+                     "schema": {
+                        "type": "object",
+                        "example": {
+                           "id": 55
+                        }
+                     }
+                  }
+               }
+            },
+            "responses": {
+               "200": {
+                  "description": "Successful response",
+                  "content": {
+                     "application/json": {}
+                  }
+               }
+            }
+         }
+      }
+   }
+}

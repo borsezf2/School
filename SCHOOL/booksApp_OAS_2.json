@@ -1,0 +1,280 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "booksapp",
+    "contact": {}
+  },
+  "host": "127.0.0.1:5000",
+  "basePath": "/",
+  "securityDefinitions": {},
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/detail": {
+      "get": {
+        "description": "detail",
+        "summary": "detail",
+        "tags": [
+          "General"
+        ],
+        "operationId": "detail",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "headers": {}
+          }
+        }
+      },
+      "post": {
+        "description": "detail",
+        "summary": "detail",
+        "tags": [
+          "General"
+        ],
+        "operationId": "Postdetail",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": false,
+            "enum": [
+              "application/json"
+            ],
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "description": "",
+            "schema": {
+              "type": "object"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/update": {
+      "get": {
+        "description": "update",
+        "summary": "update",
+        "tags": [
+          "General"
+        ],
+        "operationId": "update",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "headers": {}
+          }
+        }
+      },
+      "post": {
+        "description": "update",
+        "summary": "update",
+        "tags": [
+          "General"
+        ],
+        "operationId": "Postupdate",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": false,
+            "enum": [
+              "application/json"
+            ],
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "description": "",
+            "schema": {
+              "type": "object"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/addbook": {
+      "get": {
+        "description": "addbook",
+        "summary": "addbook",
+        "tags": [
+          "General"
+        ],
+        "operationId": "addbook",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "headers": {}
+          }
+        }
+      },
+      "post": {
+        "description": "addbook",
+        "summary": "addbook",
+        "tags": [
+          "General"
+        ],
+        "operationId": "Postaddbook",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": false,
+            "enum": [
+              "application/json"
+            ],
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "description": "",
+            "schema": {
+              "type": "object"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/deletebook": {
+      "get": {
+        "description": "deletebook",
+        "summary": "deletebook",
+        "tags": [
+          "General"
+        ],
+        "operationId": "deletebook",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "headers": {}
+          }
+        }
+      },
+      "post": {
+        "description": "deletebook",
+        "summary": "deletebook",
+        "tags": [
+          "General"
+        ],
+        "operationId": "Postdeletebook",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": false,
+            "enum": [
+              "application/json"
+            ],
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "description": "",
+            "schema": {
+              "type": "object"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "headers": {}
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "General",
+      "description": ""
+    }
+  ]
+}
